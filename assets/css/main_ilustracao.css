@@ -1,0 +1,182 @@
+/* primari - 102947 */
+/* secundari - D6B1A8 */
+    /* reset */
+    /* .modal-header{
+        
+    } */
+    .dropdown-toggle::after {
+        content: inherit;
+    }
+    a.navbar-brand.logo {
+    /* transform: rotate(90deg); */
+    position: relative;
+    top: -27px;;
+    color: white;
+    text-transform: lowercase;
+    opacity: 0.9;
+    left: 3%;
+}
+.primary{
+    color: #102947;
+}
+.secundary{
+    color: #D6B1A8;
+}
+nav.navbar.navbar-expand-lg.position-absolute.w-100{
+    color: red;
+}
+.btn-primary {
+    background-color: #102947;
+    border: 0;
+    color: white;
+}
+.btn-secundary{
+    background-color: #D6B1A8;
+    border: 0;
+    color: white;
+
+}
+
+.a {
+    color: #102947;
+}
+.navbar-toggler:focus {
+        box-shadow: inherit;
+}
+.dropdown-menu.show {
+    background-color:#102947;
+}
+a.dropdown-item {
+    color: white;
+}
+
+.banner-top{
+    background-image: url(../img/banners/_ilustration.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.experiencias{
+    background-color: #102947;
+}
+.ilustraçao{
+    background-image: url(../img/banners/dance_girl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    height: 163vh;
+}
+.carousel-control-prev {
+    left: -117px;
+}
+.carousel-control-next {
+    right: -45px;
+}
+.portal{
+    background-color: #ecb1ad;
+}
+.portfolio{
+    background-color: #DEC1B9;
+}
+figure.figure {
+    width: inherit;
+}
+
+
+.skills{
+    background-color: #102947;
+}
+.sobre-mim{
+    background-color: #D6B1A8;
+}
+.cv{
+    background-color: #B7BFC8;
+}
+.formulario{
+    background-color: #D6B1A8;
+}
+.footer{
+    background-color: #102947;
+}
+
+
+@media (max-width: 576px) {
+    .iframe{
+        width: 55vh;
+        height: 35vh;
+    }
+    .banner-top{
+        background-image: url(../img/banners/banner-mobile_ilustration.png);
+        background-size: cover;
+        background-position: initial;
+    }
+    a.navbar-brand.logo {
+        /* transform: rotate(90deg); */
+        position: relative;
+        top: 0;;
+        color: white;
+        text-transform: lowercase;
+        opacity: 0.9;
+        left: 3%;
+        font-size: unset;
+    }
+    nav ul {
+        background-color: #102947;
+        padding: 15px !important;
+        position: relative;
+    } 
+    .ilustraçao{
+        background-image: url(../img/banners/dance_girl.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0;
+        /* height: 100vh; */
+    }
+    .carousel-control-next {
+        right: 0;
+    }
+    .carousel-control-prev {
+        left: 0;
+    }
+}
+@media (min-width: 768px){
+    .banner-top{
+        background-image: url(../img/banners/banner-tablet_ilustration.png);
+        background-size: cover;
+        background-position: initial;
+    }
+    .carousel-control-next {
+        right: 0;
+    }
+    .carousel-control-prev {
+        left: 0;
+    }
+    a.navbar-brand.logo {
+        /* transform: rotate(
+    90deg
+    ); */
+        position: relative;
+        top: -27px;
+        color: white;
+        text-transform: lowercase;
+        opacity: 0.9;
+        left: 3%;
+    }
+}
+@media (min-width: 1024px){
+    .banner-top{
+        background-image: url(../img/banners/_ilustration.png);
+        background-size: cover;
+        background-position: initial;
+    }
+    a.navbar-brand.logo {
+        /* transform: rotate(
+    90deg
+    ); */
+        position: relative;
+        top: -27px;
+        color: white;
+        text-transform: lowercase;
+        opacity: 0.9;
+        left: 3%;
+    }
+}
