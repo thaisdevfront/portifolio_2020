@@ -6,499 +6,362 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/main_index.css">
-
-    <title>Designer - Desenvolvedora de Web Responsivos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <script defer src="/your-path-to-fontawesome/js/brands.js"></script>
+  <script defer src="/your-path-to-fontawesome/js/solid.js"></script>
+  <script defer src="/your-path-to-fontawesome/js/fontawesome.js"></script>
+    
+    <title>Designer - UIUX!</title>
 
   </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg position-absolute w-100">
-            <div class="container-fluid align-items-center pt-2">
-              <a class="navbar-brand logo" href="index.html"><img src="assets/img/logo_white.png" alt="logo_thais.png"></a>
-              <!-- <p class="text-white d-none d-sm-block">Contrate Freelancer</p> -->
-              <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars text-white"></i>
-              </button>
-              <div class="collapse navbar-collapse float-end" id="navbarScroll">
-                <ul class="navbar-nav m-auto" style="--bs-scroll-height: 100px;">
-                  <li class="nav-item">
-                    <a class="nav-link text-white active" aria-current="page" href="index.html">Página Inicial</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="sobre_mim.html">Sobre Mim</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#skills">Skills</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link text-white dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Portfólio
-                    </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                            <li><a class="dropdown-item" href="#design">Desing Gráfico</a></li>
-                            <li><a class="dropdown-item" href="#dev">Desenvolvedora Front-End</a></li>
-                            <li><a class="dropdown-item" href="#ilustracao">Ilustração Digital</a></li>
-                        </ul>
-                  </li>
+  
+  <body>
+      <header>
+        <nav class="navbar navbar-expand-md navbar-transparent position-absolute w-100">
+            <div class="container p-2">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/public/logo_thais.png" alt="">
+                  </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="d-flex">
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-flex justify-items-end">
+                      <a class="nav-link active  text-white" aria-current="page" href="#">Home</a>
+                      <a class="nav-link  text-white" href="#">Sobre Min</a>
+                      <a class="nav-link text-white" href="#">Habilidades</a>
+                      <a class="nav-link text-white" href="#">Portfólio</a>
+                      <button type="button" class="btn btn-primary rounded-pill">Fale comigo!</button>
+                    </div> 
+                  </div>
+            </div>
+          </nav>
+
+          <nav class="navbar fixed-bottom navbar-light bg-light d-flex d-block d-sm-none">
+            <!-- <a class="navbar-brand" href="#">Fixed bottom</a> -->
+            <a class="nav-link text-white active" aria-current="page" href="#"><img src="assets/public/icons_nav/botao-home-para-interface.png" style="width: 25px;" alt=""></a>
+            <a class="nav-link text-white " href="#"><img src="assets/public/icons_nav/user.png" style="width: 25px;" alt=""></a>
+            <a class="nav-link text-white" href="#"><img src="assets/public/icons_nav/criatividade.png" style="width: 25px;" alt=""></a>
+            <a class="nav-link text-white" href="#"><img src="assets/public/icons_nav/portfolio.png" style="width: 25px;" alt=""></a>
+            <a class="nav-link text-white" href="#"><img src="assets/public/icons_nav/whatsapp.png" style="width: 25px;" alt=""></a>
+
+          </nav>
+      </header>
+
+    <section id="banner">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/public/bnner_top.png" class="d-block w-100 d-none d-sm-block" alt="...">
+                <img src="assets/public/bnnr_mobile.png" class="d-block w-100 d-block d-sm-none" alt="...">
+
+                <div class="carousel-caption">
+                    <h1>Designer e Desenvolverdora de interfaces.</h1>
+                    <h3>Designer UI UX e Dev front-end</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/public/bnner_top_1.png" class="d-block w-100 d-none d-sm-block" alt="...">
+                <img src="assets/public/bnnr_mobile_1.png" class="d-block w-100 d-block d-sm-none" alt="...">
+
+                <div class="carousel-caption">
+                    <h1>Designer e Desenvolverdora de interfaces.</h1>
+                    <h3>Designer UI UX e Dev front-end</h3>
+                </div>
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section id="habilidades">
+        <div class="container pt-5 pb-5">
+            <div class="row mt-4 mb-4">
+                <h2 class="h1">Saiba como posso  contribuir em sua <br> empresa ou projetos!</h2>
+                <p class="h4">trabalhos desenvolvidos em parcerias.</p>
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div class="col mt-2 mb-2">
+                    <div class="card shadow border-0 p-2" style="width: 18rem; height: 18rem; border-radius: 15px;">
+                        <div class="card-body mt-4">
+                          <h5 class="card-title">Design Criativo!</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Identidade Vizual.</h6>
+                          <p class="card-text">Foco em peças de públicidade, em empresas de grande ou pequeno porte.</p>
+                          <button type="button" class="btn btn-primary rounded-pill">Veja Mais!</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col mt-2 mb-2">
+                    <div class="card shadow border-0 p-2" style="width: 18rem; height: 18rem; border-radius: 15px;">
+                        <div class="card-body mt-4">
+                          <h5 class="card-title">Design Ux Ui!</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">interface do usuário e <br> arquitetura da informação.</h6>
+                          <p class="card-text">Crição e desenvolvimentos de wireframes.</p>
+                          <button type="button" class="btn btn-primary rounded-pill">Veja Mais!</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col mt-2 mb-2">
+                    <div class="card shadow border-0 p-2" style="width: 18rem; height: 18rem; border-radius: 15px;">
+                        <div class="card-body mt-4">
+                          <h5 class="card-title">Dev front-end jr!</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Desenvolvimento de peças digitáis.</h6>
+                          <p class="card-text">Crio e desenvolvo interfaces digitáis, apartir dos materiáis recebidos.</p>
+                          <button type="button" class="btn btn-primary rounded-pill">Veja Mais!</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="banner_ilustração">
+            <div class="container pt-5 pb-5">
+                <div class="row mt-4 mb-4">
+                    <h2 class="h1 text-white">Ilustração Digital</h2>
+                    <h5 class="h2 text-white">Arte Livre!</h5>
+                    <p class="p text-white">Criações focadas em<br>trazer sentimentos, há primeira vista.</p>
+                    <button type="button" class="btn btn-primary rounded-pill w-25">Veja Mais!</button>
+                </div>
+            </div>
+    </section>
+
+    <section id="art-live">
+        <div class="container pt-5 pb-5">
+            <div class="row align-items-center justify-content-center mt-4 mb-4">
+                <div class="col-md-6">
+                    <h2 class="">Designer Criativo.</h2>
+                    <h5>Protótipos Focados em publicidade.</h5>
+                    <p>Como peças para embalagens, estampas, Social Media e banners web.
+                        Caracteristica descritas como: 'CRIATIVA, ESPONTÂNEA E INOVADORA'.
+                    </p>
+                    <p>tenho comprometimento com entregar meu melhor, tenho bastante afinidade com criação.</p>
+                    <button type="button" class="btn btn-primary rounded-pill w-25">Veja Mais!</button>
+                </div>
+                <div class="col-md-6">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="assets/public/Group 12.png" class="d-block w-100" style=" border-radius: 15px;" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/public/Group 9.png" class="d-block w-100" style=" border-radius: 15px;" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/public/Group 13.png" class="d-block w-100" style=" border-radius: 15px;" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="design_ux_ui">
+          <div class="container pt-5 pb-5">
+              <div class="row align-items-center mt-4 mb-4">
+                  <h2 class="h1 text-white fw-bolder">Designer Ux Ui</h2>
+                  <h5 class="h2 text-white fw-bolder">Protótipos Focados na usabilidade.</h5>
+                  <p class="p text-white">O mercado atual exige cada vez mais ações diferentes e inovadoras,<br> ao inserir em um hambiente da rápidas mudanças tecnológicas.</p>
+                  <button type="button" class="btn btn-primary rounded-pill w-25">Veja Mais!</button>
                   
-                  <li  class="nav-item p-1 pt-2">
-                      <a href="https://www.linkedin.com/in/thais-mariano-3657881b6/" target="_blank"><i class="fab fa-linkedin-in  text-white h5 ml-3"></i></a>
-                      <a href="https://github.com/ThaisMariano30" target="_blank"><i class="fab fa-github-alt  text-white h5 ml-3"></i></a>
-                    
-                    <!-- <i class="fab fa-behance  text-white h5 ml-3"></i> -->
-                  </li>
-                  <li  class="nav-item p-2 pt-0 d-none d-sm-block" >
-                    <a href="https://wa.me/+5511910451115?text=" target="_blank" class="btn btn-primary rounded-pill p-5 pt-2 pb-2 mb-5">Fale Comigo <i class="fab fa-whatsapp"></i></a>
-                  </li>
-                </ul> 
-                
+                </div>
+          </div>
+      <!-- <img class="img-fluid" src="assets/public/desenhos/flora.png" alt=""> -->
+  </section>
+
+  <section id="dev">
+    <div class="container pt-5 pb-5">
+        <div class="row mt-4 mb-4">
+            <div class="col-md-6">
+              <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/public/jobs/job_port_1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/public/jobs/job_oufati_1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/public/jobs/job_colonial_1.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
             </div>
-            </nav>
-        </header>
-        <main>
-            <!-- banner-top -->
-            <div class="banner-top pt-5 pb-5">
-                <div class="container">
-                    <div class="row pt-5">
-                        <div class="col-md-10 mt-5 mb-5">
-                            <h1 class="display-2 text-white h1 mt-5"> Designer e Desenvolvedora de Web Apps Responsivos.</h1>
-                        </div>
-                    </div>
-                    <div class="row pb-5">    
-                        <div class="col">
-                            <a href="https://wa.me/+5511910451115?text=" target="_blank" class="btn btn-primary rounded-pill p-5 pt-2 pb-2 mb-5">Contrate Agora <i class="fab fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center p-4">
-                        <a class="text-center primary h6 text-decoration-none" href="#mais"><i class="fas fa-angle-down h4"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!-- experiencias -->
-            <div class="experiencias pt-5 pb-5" id="mais">
-                <div class="container">
-                    <div class="row">
-                        <div class="col mt-5 mb-5">
-                            <h1 class="display-5 text-white">Veja como posso contribuir,</h1>
-                            <p class="display-6 text-white h3">Para seu projeto ou Corporação.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 mt-2 mb-5">
-                            <h4 class="text-white mb-3">Design Gráfico</h4>
-                            <p class="text-white">»  Protótipos pensados para identidade vizual, como peças para Embalagens, Estampas, Banners Web, e Social Media.</p>
-                            <a href="#design" class="btn btn-secundary rounded-pill p-5 pt-2 pb-2">Portfólio Design</a>
-                        </div>
-                        <div class="col-md-6 mb-5">
-                            <h4 class="text-white mb-3">Web Designer</h4>
-                            <p class="text-white">»  Criação e Desenvolvimento de interfaces digitais, como Layouts e Aplicativo Web.</p>
-                            <a href="#dev" class="btn btn-secundary rounded-pill p-5 pt-2 pb-2">Portfólio Web</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Ilustração -->
-            <div class="ilustraçao pt-5 pb-5" id="ilustracao">
-                <div class="container">
-                    <div class="row align-items-center justify-content-center">
-                        <div class="col-md-8 mt-5 mb-5">
-                            <h4 class="display-4 fw-bolder text-white">Ilustrações Digitais Veja o que faço em meu tempo livre!</h4>
-                            <p class="primary">Galeria de Ilustrações</p>
+            <div class="col-md-5 justify-items-end">
+              <h2 class="h1">Desenvolverdora.</h2>
+              <h5>Protótipos Focados na interação do usuário com a interface.</h5>
+              <p>De intensa competitividade, buscando sempre tendências de marcado e do universo produtivo.</p>
+              <p>Realizan manutenções de mercado e corrijo possiveis erros de programação, até mesmo consumo de dados.
+                  Utilizo técnicas de desenvolvimento 'MOBILE FIRST' com os quatros conceitos básicos do Design.
+                  Mantenho calma e foco, para possiveis erros.
+              </p>
+              <button type="button" class="btn btn-primary rounded-pill w-25">Veja Mais!</button>
 
-                        </div>
-                        <div class="col-md-4 text-center mt-5 mb-5">
-                            <a href="galeria_ilustracao.html" target="_blank" class="btn btn-primary rounded-pill p-5 pt-2 pb-2">Veja Mais</a>
-                        </div>
-                    </div>
-                </div>
             </div>
-            <!-- d_g. -->
-            <div class="portal pt-5 pb-5" id="design">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 mt-5 mb-5">
-                            <div class="pt-5 pb-5">
-                                <img src="assets/img/mockup.png" class="img-fluid rounded" alt="...">
-                            </div>
-                        </div>
-                        <div class="col-md-6 mt-sm-5 mb-5">
-                            <div class="text-pather">
-                                <h2 class="display-5 primary">Designer Criativo.</h2>
-                                <h3 class="primary fw-normal h5 mt-3">Veja Projetos Desenvolvidos.</h3>
-                                <p class="primary pt-2 mt-2">Protótipos pensados para identidade vizual como peças para Embalagens, Estampas, Banners Web e Social Media.</p>
-                                <p class="primary">Gosto bastante da tecnologia em geral!<br>Caracteristica descrita como; Criativa e Inovadora. <br> Comprometimento com resultados, bastante afinidade com desenhos.</p>
-                            </div>
-                            <button type="button" class="btn btn-primary rounded-pill p-5 pt-2 pb-2 mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal-criativo">
-                                Veja Mais
-                            </button>
-                            <div class="modal fade" id="exampleModal-criativo" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
-                                <div class="modal-dialog popover-test">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title primary" id="exampleModalLabel">Veja Projetos Desenvolvidos 2021!</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                                            <div class="carousel-indicators">
-                                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                            </div>
-                                            <div class="carousel-inner">
-                                              <div class="carousel-item active">
-                                                <img src="assets/img/typeas/mockup.png.png" class="d-block text-center w-100 banner_agencia" alt="...">
-                                                <!-- <div class="carousel-caption d-none d-md-block">
-                                                </div> -->
-                                              </div>
-                                              <div class="carousel-item">
-                                                <img src="assets/img/mockup.png" class="d-block w-100" alt="...">
-                                                <!-- <div class="carousel-caption d-none d-md-block">
-                                                </div> -->
-                                              </div>
-                                              <div class="carousel-item">
-                                                <img src="assets/img/mockup.png" class="d-block w-100" alt="...">
-                                                <!-- <div class="carousel-caption d-none d-md-block">
-                                                </div> -->
-                                              </div>
-                                            </div>
-                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Previous</span>
-                                            </button>
-                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Next</span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-secundary rounded-pill p-5 pt-2 pb-2" data-bs-dismiss="modal">Fechar</button>
-                                    <button type="button" class="btn btn-primary rounded-pill p-5 pt-2 pb-2">Fale Comigo</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
+        </div>
+    </div>
+</section>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- dev -->
-            <div class="portfolio pt-5 pb-5" id="dev">
-                <div class="container">
-                    <div class="row align-items-center pt-5 pb-5">
-                        <div class="col-md-6">
-                            <div class="text-pather">
-                                <h2 class="display-5 primary">Veja Web Design</h2>
-                                <p class="display-6 primary h3">Crio, Planejo e Desenvolvo Interfaces Digitais.</p>
-                                <h3 class="primary fw-normal h5">Conheça sobre meu estilo de trabalho e criatividade.</h3>
-                                <p class="primary pt-3">Envolve o Desenvolvimento de Layouts e Design de Páginas Online, assim como produção de conteúdo. </p>
-                                <p class="primary">Crio, personalizo e finalizo de acordo com cada preferência. </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="pt-5 pb-5">
-                                <img src="assets/img/typeas/grupo1.png" class="img-fluid rounded" alt="...">
-                            </div>   
-                        </div>
-                    </div>
-                </div>
-                <hr class="text-white m-auto w-75">
-            </div>
-           
-            <!-- mockup  -->
-            <div class="portfolio pb-5" id="dev">
-                <div class="container">
-                    <div class="row align-items-center justify-content-center pb-5">
-
-                        <div class="col-sm-12 col-md-6 col-lg-4 p-3">
-                            <div class="card" style="width: 18rem;">
-                                <img src="assets/img/mockups/mockup_portfolio.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                <h5 class="card-title">Meu Portfólio</h5>
-                                <p class="card-text">Protótipo da Interface do meu Portfólio..</p>
-                                <a href="#" type="button" class="btn btn-primary rounded-pill p-5 pt-2 pb-2" data-bs-toggle="modal" data-bs-target="#exampleModalportfolio" >Veja Mais</a>
-                                    <!-- Modal -->
-                                    <div class="modal fade modal-dialog-scrollable" id="exampleModalportfolio" tabindex="-1" aria-labelledby="exampleModalLabelportfolio" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Porfólio 2021</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <div>
-                                                    <img class="img-fluid img-portfolio" src="assets/img/wireframes/portfolio.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary rounded-pill  p-5 pt-2 pb-2" data-bs-dismiss="modal">Voltar</button>
-                                            <a href="https://wa.me/+5511910451115?text=" target="_blank" class="btn btn-primary rounded-pill p-5 pt-2 pb-2">Contrate Agora <i class="fab fa-whatsapp"></i></a>
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4 p-3">
-                            <div class="card" style="width: 18rem;">
-                                <img src="assets/img/mockups/mockup_type.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                <h5 class="card-title">Agencia Type As</h5>
-                                <p class="card-text">Protótipo em desenvolvimento, para Agência.</p>
-                                <a href="#" type="button" class="btn btn-primary rounded-pill p-5 pt-2 pb-2" data-bs-toggle="modal" data-bs-target="#exampleModaltype" >Veja Mais</a>
-                                    <!-- Modal -->
-                                    <div class="modal fade modal-dialog-scrollable" id="exampleModaltype" tabindex="-1" aria-labelledby="exampleModalLabeltype" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabeltype">Agência Type As 2021!</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <div>
-                                                    <img class="img-fluid img-portfolio" src="assets/img/wireframes/type_as.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary rounded-pill p-5 pt-2 pb-2" data-bs-dismiss="modal">Voltar</button>
-                                            <a href="https://wa.me/+5511910451115?text=" target="_blank" class="btn btn-primary rounded-pill p-5 pt-2 pb-2">Contrate Agora <i class="fab fa-whatsapp"></i></a>
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4 p-3">
-                            <div class="card" style="width: 18rem;">
-                                <img src="assets/img/mockups/mockup-portal.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                <h5 class="card-title">Guia Digital</h5>
-                                <p class="card-text">Interface desenhada tirada de uma idéia de Portal Digital, para turistas e moradores possam conhecer meçhor á cidade em que estão.</p>
-                                <a href="#" type="button" class="btn btn-primary rounded-pill p-5 pt-2 pb-2" data-bs-toggle="modal" data-bs-target="#exampleModalportal">Veja Mais</a>
-                                    <!-- Modal -->
-                                    <div class="modal fade modal-dialog-scrollable" id="exampleModalportal" tabindex="-1" aria-labelledby="exampleModalLabelportal" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabelportal">Guia Digital 2021!</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <div>
-                                                    <img class="img-fluid img-portfolio" src="assets/img/wireframes/portal.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary rounded-pill p-5 pt-2 pb-2" data-bs-dismiss="modal">Voltar</button>
-                                            <a href="https://wa.me/+5511910451115?text=" target="_blank" class="btn btn-primary rounded-pill p-5 pt-2 pb-2">Contrate Agora <i class="fab fa-whatsapp"></i></a>
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Skills -->
-            <div class="skills pt-5 pb-5" id="skills">
-                <div class="container">
-                    <div class="row">
-                        <div class="col mt-5 mb-5">
-                            <h2 class="display-5 text-white text-center">Veja Minhas habilidades e Softwares e Skills.</h2>
-                            <p class="text-white text-center">Tenho o prazer de trazer o melhor de mim, para o Desenvolvimento de peças. Colocar em prática minha criatividade, poder contribuir em  novas criações, tenho pensado sempre na usabilidade de usuários.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 mb-5">
-                            <h4 class="text-white">PhotoShop</h4>
-                            <!-- <p class="text-white">85%</p> -->
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
-                              </div>
-                            <h4 class="text-white">Figma</h4>
-                            <!-- <p class="text-white">70%</p> -->
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
-                              </div>
-                        </div>
-                        <div class="col-md-4 mb-5">
-                                <h4 class="text-white">Html 5</h4>
-                                <!-- <p class="text-white">45%</p> -->
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">45%</div>
-                                  </div>
-                                <h4 class="text-white">Css 3</h4>
-                                <!-- <p class="text-white">45%</p> -->
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">45%</div>
-                                  </div>
-                        </div>
-                        <div class="col-md-4 mb-5">
-                                <h4 class="text-white">Ilustração</h4>
-                                <!-- <p class="text-white">85%</p> -->
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
-                                  </div>
-                                <h4 class="text-white">Adobe XD</h4>
-                                <!-- <p class="text-white">65%</p> -->
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">65%</div>
-                                  </div>
-                        </div>                    
-                    </div>
-                </div>    
-            </div>
-            <!-- SOBRE MIM -->
-            <div class="sobre-mim pt-5 pb-5" id="sobre-mim">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-7 mt-5 mb-5">
-                            <h1 class="display-5 primary">Sobre Mim!</h1>
-                            <p class="display-6 primary h3">Trabalho Criativo.</p>
-                            <h3 class="primary fw-normal h5">Conheça sobre meu estilo de trabalho e criatividade.</h3>
-                            <p class="primary pt-3">Prazer, me chamo Thais Mariano, Estudante e Profissional de Designer Gráfico e Desonvolvedora  Front-End.</p>
-                            <p class="primary pb-5">Tenho bastante afinidade com ilustrações e artes, desde pequena.  Atuei em empresas de pequeno porte, neste 1 ano e meio. Pude colaborar com ideias e desenvolvimento de projetos, na área de Design Web, coloquei em prática oque aprendi, desenvolvendo prototipos pessoais.  Me comprometo com ótimos resultados.</p>
-                            <a href="sobre_mim.html" target="_blank" class="btn btn-primary rounded-pill p-5 pt-2 pb-2">Veja mais</a>
-                        </div>
-                        <div class="col-md-5 mt-5 mb-5">
-                            <img src="assets/img/foto_perfil.jpg" class="img-fluid rounded" alt="foto_perfil.jpg">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- CV -->
-            <div class="cv pt-5 pb-5">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-8 pt-5 pb-5">
-                            <h4 class="primary display-5">Se precisar de ajuda, fale comigo ou Faça download do meu CV.</h4>
-                        </div>
-                        <div class="col-md-4 pt-5 pb-5 text-center">
-                            <a href="assets/img/Thais Mariano De(1).pdf" target="_blank" class="btn btn-secundary rounded-pill p-5 pt-2 pb-2 mb-5">Download  <i class="fas fa-angle-right"></i></a>
-                            <a href="https://wa.me/+5511910451115?text=" target="_blank" class="btn btn-primary rounded-pill p-5 pt-2 pb-2">Fale Comigo <i class="fab fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- formulario de contato -->
-            <div class="formulario pt-5 pb-5">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-5 mt-5 mb-5">
-                            <h5 class="display-3 text-white">Entre em contato Via Email e outras plataformas...</h5>
-                            <div class="social-media">
-                                <ul class="list-group list-group-horizontal border-0">
-                                    <li class="list-group-item bg-transparent border-0"><a href="https://www.linkedin.com/in/thais-mariano-3657881b6/" target="_blank"><i class="fab fa-linkedin-in  text-white h5 ml-3"></i></a>
-                                    </li>
-                                    <li class="list-group-item bg-transparent border-0"><a href="https://github.com/ThaisMariano30" target="_blank"><i class="fab fa-github-alt  text-white h5 ml-3"></i></a>
-                                    </li>
-                                  </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6 justify-content-center mt-5 mb-5">
-                            <form action="/action_page.php" class="g-3 needs-validation rounded bg-light p-5" novalidate">
-                                <div class="row">
-                                    <div class="col mt-2">
-                                        <label for="validationCustom01" class="form-label primary">Nome</label>
-                                        <input type="text" class="form-control" id="validationCustom01" placeholder="Digite seu Nome" required>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col mt-2">
-                                        <label for="phone" class="form-label primary">WhatsApp Número</label>
-                                        <input type="tel" id="phone" name="phone" placeholder="(11) 91111-1111" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" class="form-control" id="validationCustom01" required>
-                                        
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col mt-2">
-                                        <label for="email" class="form-label primary">Email</label>
-                                        <input type="email" id="email" name="email" class="form-control" placeholder="name@example.com" required>
-                                       
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col mt-2">
-                                        <label for="exampleFormControlTextarea1" class="form-label primary">Informaçôes adicionais:</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <a href="https://wa.me/+5511910451115?text=" target="_blank" class="btn btn-primary rounded-pill p-5 pt-2 pb-2 mb-5">Fale Comigo <i class="fab fa-whatsapp"></i></a>
-                                    <button class="btn btn-primary rounded-pill p-5 pt-2 pb-2 mt-4" type="submit">Enviar Agora</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <footer>
-                <div class="footer pt-5 pb-2">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-md-7 mt-5 mb-2">
-                                <h5 class="display-5 text-white">Caso precise de uma Profissional na área de Designer e Desenvolvimento.</h5>
-                                <p class="h5 text-white mt-4">É só preencher o formulario de contato</p>
-                            </div>
-                            <div class="col-md-4 text-center mt-5 mb-2">
-                                <a href="https://wa.me/+5511910451115?text=" target="_blank" class="btn btn-secundary rounded-pill p-5 pt-2 pb-2 mb-5">Fale Comigo <i class="fab fa-whatsapp"></i></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col text-center mt-2 mb-3">
-                                <a class="link active text-white" aria-current="page" href="#">Página Inicial</a>
-                                <a class="link text-white" href="#sobre-mim">Sobre Mim</a>
-                                <a class="link text-white" href="#skills">Skills</a>
-                                <a class="link text-white" href="#mais">Portfólio</a>
-                            </div>
-                        </div>
-
-                        <hr class="text-white">
-
-                        <div class="row">
-                            <p class="text-white text-center mb-5">© Thais Mariano, Designer e Dev Front-End. 2021. Portfólio desenvolvido Responsivo!</p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </main>
-    
+<section id="skills">
+  <div class="container pt-5 pb-5">
+    <div class="row align-items-center text-white mt-4 mb-4">
+      <div class="col-9">
+        <h2>Tenho o prazer de trazer o melhor de mim para <br> o desenvolvimento de peças.</h2>
+        <h4>Coloco minhas idéias e criatividade há jogo, <br> poder contribuir em novas idéias.</h4>
+        <p>Gosto de entender o que nossos usuários precisam, e compor ná prática,<br> focada em UI e UX.
+          Aqui poderá conhecer um poco mais em quais linguagens de programação <br> mais me familiarizo.
+        </p>
+      </div>
+      <div class="col-3">
+        <div>
+          <h6>npm</h6>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div>
+          <h6>html 5</h6>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div>
+          <h6>css3</h6>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div>
+          <h6>bootstrap</h6>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div>
+          <h6>js</h6>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div>
+          <h6>react</h6>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
         
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script src="assets/js/all.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
-
-    <script>
+      </div>
+    </div>
+    <div class="row text-white align-items-center pt-5">
+      <div class="col-9">
+        <p>Aqui poderá conhecer, em quais programas utilizo<br> para desenvolver wireframes, design patterns.</p>
+      </div>
+     
+      <div class="col-3">
+        <div>
+          <h6>Figma</h6>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div>
+          <h6>Photoshop</h6>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div>
+          <h6>Adobe</h6>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
     
-    jQuery.noConflict();
-    (function($){
-    var $menu = $('.menu-scroll a, a.menu-scroll');
-    
-    //LINKS ==================
-    $menu.bind('click',function(event){             
-        event.preventDefault(); //URL nao sera atualizada. Previnir clique 
-        var $anchor = $(this);
-        $('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top}, 1500);
-    });
-    
-    //LINKS INTERNOS ==================
-    var hash = location.hash; //Detecta o hash no final da URL
-    if(hash !== ''){
-        $('html, body').stop().animate({scrollTop: $(hash).offset().top}, 1500);
-    }
-})(jQuery);
-    </script>
+    <!-- <img src="assets/public/macbook.png" class="img-fluid" style="width: 50%; height: 50%; border-radius: 15px;" alt=""> -->
+
+  </div>
+</section>
+<section id="sobre_mim">
+  <div class="container pt-5 pb-5">
+    <div class="row align-items-center mt-4 mb-4">
+      <div class="col">
+        <h2>Conheça sobre meu estilo de trabalho e criatividade.</h2>
+        <h4>Prazer me chamo Thais Mariano, estudante e profissional de design gráfico e desenvolvedora.</h4>
+        <p>Tenho bastante afinidade cm há arte desde bem pequena.
+          Atuei em empresas de pequenos porte, mas estou em busca de oportunidade.
+        </p>
+        <p>Neste 1 ano, pude colaborar com idéias no design e desenvolvimento de projetos, UX E UI. Coloquei em prática o que aprendi desenvolvendo protótipos em parcerias, e protótipos pessoais.</p>
+        <p>Crio e personalizo de acordo com preferências, busco contrato clt, ou até mesmo parcerias.</p>
+        <button type="button" class="btn btn-primary rounded-pill w-25">Veja Mais!</button>
+
+      </div>
+      <div class="col text-center">
+        <img src="assets/public/foto_perfil 1 (1).png" style="width: 75%;" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container pt-5 pb-5 text-white">
+    <div class="row mt-4 mb-4">
+      <div class="col text-center">
+        <a class="navbar-brand" href="#">
+        <img src="assets/public/logo_thais.png" alt="">
+        </a>
+      </div>
+      <div class="col">navegação
+        <button type="button" class="btn btn-primary rounded-pill w-25">Veja Mais!</button>
+
+      </div>
+    </div>
+    <hr class="text-muted">
+    <div class="row text-center">
+      <div>icons</div>
+      <a href=""><p class="">@ThaisMariano. Designer e Desnvolvedora front.</p></a>
+    </div>
+  </div>
+</footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   </body>
 </html>
